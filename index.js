@@ -19,8 +19,8 @@ function currentLine(katzDeliLine){
 } else {
      var addTo="";
      for(var i=0;i<katzDeliLine.length;i++){
-          addTo+= `${i+1}.${katzDeliLine[i]},`;
+          addTo+= `${i+1}. ${katzDeliLine[i]}, `;
         }
-  return "The line is currently:"+addTo;
+  return "The line is currently : "+addTo;
 }
 }
