@@ -9,6 +9,15 @@ function nowServing(){
   if(katzDeliLine.length===0){
     return "There is nobody watiting to be served";
   }else{
-    
+    return katzDeliLine.shift();
   }
+}
+function currentLine(){
+  if(katzDeliLine.length===0){
+    
+  return "The line is currently empty.";
+} else {
+   for(var i=0;i)
+  
+}
 }
