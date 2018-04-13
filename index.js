@@ -6,12 +6,12 @@ function takeANumber(katzDeliLine,newName){
   
 }
 function nowServing(){
-  //if(katzDeliLine.length===0){
-    //return "There is nobody waiting to be served!";
-  //}else{
+  if(katzDeliLine.length===0){
+    return "There is nobody waiting to be served!";
+  }else{
     var personNowServing=katzDeliLine.shift();
     return `Currently serving ${personNowServing}`;
-  //}
+  }
 }
 function currentLine(katzDeliLine){
   if(katzDeliLine.length===0){
